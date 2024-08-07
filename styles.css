@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b2b2b2;
+    font-style: italic;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Align items in a single line */
+    justify-content: center; /* Center the navigation items */
+}
+
+header nav ul li {
+    margin: 0 1rem; /* Space between items */
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    height: 100px; /* Optional: make the text bold */
+}
+
+header {
+    background-color: #3c3c3c;
+    font-style: normal;
+    color: #ffffff;
+    padding: 1rem; /* Increased padding for a larger header */
+    text-align: center;
+    height: 50px; /* Set a specific height */
+}
+
+.hero {
+    position: relative;
+    height: 350px; /* Increased height for the hero section */
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    transform: translate(-50%, -50%);
+}
+
+.hero .hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+    color: black;
+}
+
+section#ideas {
+    background-color: #ffffff;
+}
+
+.idea {
+    border-bottom: 1px solid #ddd;
+    margin: 2rem 0;
+    padding: 2rem 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.idea img {
+    width: 50%;
+    justify-content: center;
+    height: auto;
+    border-radius: 8px;
+}
+
+section#Book
+{
+    text-align: center
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
